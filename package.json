@@ -1,0 +1,23 @@
+{
+  "name": "media_api",
+  "version": "1.0.0",
+  "description": "Nodejs and MongoDB based API system for Media datasets",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "media_api"
+  },
+  "keywords": [
+    "api",
+    "schema",
+    "stuff"
+  ],
+  "author": "LSU Media",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.2.10"
+  }
+}

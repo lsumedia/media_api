@@ -1,0 +1,249 @@
+{
+	"home" : {
+		"featured" : [
+			{
+				"id" : 42,
+				"uri" : "media:lsutv:video:2"
+			}
+		],
+		"options" : {
+			"site_poster" : "http://path-to-poster-image"
+		}
+	},
+	"lsutv" : {
+		"video" : [
+			{
+				"id" : 2,
+				"live" : false,
+				"public" : true,
+				"title": "Video Title",
+				"description" : "Video description",
+				"tags" : "space separated tags",
+				"show_id" : 25,
+				"poster" : "http://poster.url/",
+				"datetime" : "2016-10-06 11:35",
+				"type" : "videojs",
+				"sources" : [
+					{
+						"src" : "sourceurl",
+						"type" : "video/mp4",
+						"res" : "720"
+					}
+				],
+				"credit" : [
+					{ 
+						"username" : "johnsmith",
+						"role": "Director"
+					}
+				],
+				"uri" : "media:lsutv:video:2",
+				"iframe_url" : "lsutv/video/2/generated.html"
+			}
+		],
+		"channel" : [
+			{
+				"id" : 1,
+				"on_air" : true,
+				"content_id" : "live_1",
+				"title" : "LSUTV",
+				"poster" : "http://poster.url",
+				"schedule_id" : 1,
+				"content" : { /* video object */ },
+				"uri" : "media:lsutv:channel:1"
+			}
+		],
+		"schedule" : [
+			{
+				"id" : 1,
+				"title" : "LSUTV 2015-16",
+				"events" : [
+					{
+						"id" : 23,
+						"date" : "2016-08-31",
+						"start_time" : "10:00",
+						"end_time" : "14:00",
+						"frequency" : 7,
+						"title" : "",
+						"description" : "This week: more fun!",
+						"show" : { /* show object */ }
+					}
+				],
+				"uri" : "media:lsutv:schedule:1"
+			}
+		],
+		"show" : [
+			{
+				"id" : 41,
+				"title" : "Totty TV",
+				"description" : "",
+				"poster" : "http://poster_url",
+				"theme_color" : "#4a1863",
+				"uri" : "media:lsutv:show:41"
+			}
+		],
+		"blog" : [
+			{
+				"id" : 1,
+				"public" : true,
+				"title" : "Blog Post",
+				"content" : "<p>Blog Post HTML Content</p>",
+				"tags" : "space separated tags",
+				"datetime"	: "2016-10-06 11:35:00",
+				"author" : "username",
+				"uri" : "media:lsutv:blog:1"
+			}
+		]
+	},
+	"lcr" : {
+		"video" : [
+			{
+				"id" : 43,
+				"live" : false,
+				"public" : true,
+				"title": "Episode Title",
+				"description" : "Episode description",
+				"tags" : "space separated tags",
+				"show_id" : 25,
+				"poster" : "http://poster.url/",
+				"datetime" : "2016-10-06 11:35",
+				"type" : "videojs",
+				"sources" : [
+					{
+						"src" : "sourceurl",
+						"type" : "audio/mp3",
+						"res" : "320"
+					}
+				],
+				"credit" : [
+					{ 
+						"username" : "johnsmith",
+						"role": "Presenter"
+					}
+				],
+				"uri" : "media:lcr:video:43",
+				"iframe_url" : "lcr/video/43/generated.html"
+			}
+		],
+		"channel" : [
+			{
+				"id" : 1,
+				"on_air" : true,
+				"content_id" : "live_1",
+				"title" : "LCR",
+				"poster" : "http://poster.url",
+				"schedule_id" : 1,
+				"content" : { /* video object */ },
+				"uri" : "media:lcr:channel:1"
+			}
+		],
+		"schedule" : [
+			{
+				"id" : 1,
+				"title" : "LCR 2015-16",
+				"events" : [
+					{
+						"id" : 23,
+						"date" : "2016-08-31",
+						"start_time" : "10:00",
+						"end_time" : "14:00",
+						"frequency" : 7,
+						"title" : "",
+						"description" : "This week: more fun!",
+						"show" : { /* show object */ }
+					}
+				],
+				"uri" : "media:lcr:schedule:1"
+			}
+		],
+		"show" : [
+			{
+				"id" : 54,
+				"title" : "BUCSFizz",
+				"description" : "",
+				"poster" : "http://poster_url",
+				"theme_color" : "#4a1863",
+				"uri" : "media:lcr:show:41"
+			}
+		],
+		"blog" : [
+			{
+				"id" : 1,
+				"public" : true,
+				"title" : "Blog Post",
+				"content" : "<p>Blog Post HTML Content</p>",
+				"tags" : "space separated tags",
+				"datetime"	: "2016-10-06 11:35:00",
+				"author" : "username",
+				"uri" : "media:lcr:blog:1"
+			}
+		]
+	},
+	"label" : {
+		"article" : [
+			{
+				"id" : 142,
+				"slug" : "my-first-post",
+				"public" : true,
+				"publish_time" : "2016-10-06 15:00:00",
+				"active_revision" : 5,
+				"revision" : [
+					{
+						"id" : 5,
+						"title" : "My First Post",
+						"body" : "<p>Rich HTML Content</p><div class=\"smart-content\" id=\"sc_1\"></div>",
+						"featured_image" : "http://featured-image-url/",
+						"author" : "username",
+						"uri" : "media:label:article:142:revision:5",
+						"smart_content" : [
+							{
+								"type" : "media_uri",
+								"content" : "media:lsutv:video:23"
+							},
+							{
+								"type" : "youtube",
+								"content" : "dQw4w9WgXcQ"
+							}
+						]
+					}
+				],
+				"uri" : "media:label:article:142"
+			}
+		],
+		"liveblog" : [
+			{
+				"id" : 26,
+				"title" : "Sing Off Live Blog",
+				"slug" : "sing-off-live-blog",
+				"datetime_start" : "2016-10-06 19:00:00",
+				"on_air" : true,
+				"description" : "Watch as we live blog this event!",
+				"tags" : "space seperated tags",
+				"events" : [
+					{
+						"id" : 53,
+						"author" : "username",
+						"datetime" : "2016-10-06 19:04:23",
+						"content" : "<p>Rich HTML Content</p>",
+						"smart_content" : [
+							{
+								"type" : "oembed",
+								"content" : "http://flickr.com/embed/102190"
+							}
+						]
+					}
+				],
+				"uri" : "media:label:liveblog:26"
+			}
+		]
+	},
+	"lens" : {
+	},
+	"user" : [
+		{
+			"username" : "johnsmith",
+			"fullname" : "John Smith",
+			"dp_url" : "http://path-to-profile-pic",
+			"bio" : "I'm not a real person. Sorry"
+		}
+	],
+}		
