@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "media_mongo": {
+    "host": "smalldisasters.ddns.net",
+    "port": 27017,
+    "url": "mongodb://root@smalldisasters.ddns.net:27017/test",
+    "database": "test",
+    "password": "",
+    "name": "media_mongo",
+    "user": "root",
+    "connector": "mongodb"
+  }
+}

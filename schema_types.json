@@ -1,0 +1,150 @@
+{
+    "videos" : [
+        {
+            "id" : 2,
+            "section" : "lsutv",
+            "live" : false,
+            "public" : true,
+            "title": "Video Title",
+            "description" : "Video description",
+            "tags" : "space separated tags",
+            "show_id" : 25,
+            "poster" : "http://poster.url/",
+            "datetime" : "2016-10-06 11:35",
+            "type" : "videojs",
+            "sources" : [
+                {
+                    "src" : "sourceurl",
+                    "type" : "video/mp4",
+                    "res" : "720"
+                }
+            ],
+            "credit" : [
+                { 
+                    "username" : "johnsmith",
+                    "role": "Director"
+                }
+            ],
+            "uri" : "media:video:2",
+            "iframe_url" : "/video/2/generated.html"
+        }
+    ],
+    
+    "channels" : [
+        {
+            "id" : 1,
+            "section" : "lsutv",
+            "on_air" : true,
+            "content_id" : "live_1",
+            "title" : "LSUTV",
+            "poster" : "http://poster.url",
+            "schedule_id" : 1,
+            "content" : { /* video object */ },
+            "uri" : "media:lsutv:channel:1"
+        }
+    ],
+    
+    "schedule" : [
+        {
+            "id" : 1,
+            "section" : "lsutv",
+            "title" : "LSUTV 2015-16",
+            "events" : [
+                {
+                    "id" : 23,
+                    "date" : "2016-08-31",
+                    "start_time" : "10:00",
+                    "end_time" : "14:00",
+                    "frequency" : 7,
+                    "title" : "",
+                    "description" : "This week: more fun!",
+                    "show" : { /* show object */ }
+                }
+            ],
+            "uri" : "media:lsutv:schedule:1"
+        }
+    ],
+    "show" : [
+        {
+            "id" : 41,
+            "section" : "lcr",
+            "title" : "BUCSFizz",
+            "description" : "",
+            "poster" : "http://poster_url",
+            "theme_color" : "#4a1863",
+            "uri" : "media:show:41"
+        }
+    ],
+    "blog" : [
+        {
+            "id" : 1,
+            "section" : "lsutv",
+            "public" : true,
+            "title" : "Blog Post",
+            "content" : "<p>Blog Post HTML Content</p>",
+            "tags" : "space separated tags",
+            "datetime"	: "2016-10-06 11:35:00",
+            "author" : "username",
+            "uri" : "media:blog:1"
+        }
+    ],
+    "article" : [
+        {
+            "id" : 142,
+            "section" : "label",
+            "slug" : "my-first-post",
+            "public" : true,
+            "publish_time" : "2016-10-06 15:00:00",
+            "active_revision" : 5,
+            "revision" : [
+                {
+                    "id" : 5,
+                    "title" : "My First Post",
+                    "body" : "<p>Rich HTML Content</p><div class=\"smart-content\" id=\"sc_1\"></div>",
+                    "featured_image" : "http://featured-image-url/",
+                    "author" : "username",
+                    "uri" : "media:label:article:142:revision:5",
+                    "smart_content" : [
+                        {
+                            "type" : "media_uri",
+                            "content" : "media:lsutv:video:23"
+                        },
+                        {
+                            "type" : "youtube",
+                            "content" : "dQw4w9WgXcQ"
+                        }
+                    ]
+                }
+            ],
+            "uri" : "media:article:142"
+        }
+    ],
+    "liveblog" : [
+        {
+            "id" : 26,
+            "section" : "label",
+            "title" : "Sing Off Live Blog",
+            "slug" : "sing-off-live-blog",
+            "datetime_start" : "2016-10-06 19:00:00",
+            "on_air" : true,
+            "description" : "Watch as we live blog this event!",
+            "tags" : "space seperated tags",
+            "events" : [
+                {
+                    "id" : 53,``
+                    "author" : "username",
+                    "datetime" : "2016-10-06 19:04:23",
+                    "content" : "<p>Rich HTML Content</p>",
+                    "smart_content" : [
+                        {
+                            "type" : "oembed",
+                            "content" : "http://flickr.com/embed/102190"
+                        }
+                    ]
+                }
+            ],
+            "uri" : "media:liveblog:26"
+        }
+    ]
+
+}
