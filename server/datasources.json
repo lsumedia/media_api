@@ -6,8 +6,8 @@
   "media_mongo": {
     "host": "smalldisasters.ddns.net",
     "port": 27017,
-    "url": "mongodb://root@smalldisasters.ddns.net:27017/test",
-    "database": "test",
+    "url": "mongodb://root@smalldisasters.ddns.net:27017/media",
+    "database": "media",
     "password": "",
     "name": "media_mongo",
     "user": "root",

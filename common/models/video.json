@@ -7,32 +7,50 @@
     "validateUpsert": true
   },
   "properties": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "type": {
-      "type": "string",
-      "required": true
-    },
-    "poster": {
-      "type": "string",
-      "required": true
-    },
-    "public": {
-      "type": "boolean",
-      "required": true,
-      "default": false
-    },
-    "sources": {
-      "type": [
-        "object"
-      ],
-      "required": true
-    },
-    "description": {
-      "type": "string"
-    }
+        "id" : {
+            "type": "number",
+            "id": true
+        },
+        "section" : {
+            "type": "string",
+            "required" : true
+        },
+        "public": {
+          "type": "boolean",
+          "required": true,
+          "default": false
+        },
+        "title": {
+          "type": "string",
+          "required": true
+        },
+        "poster": {
+          "type": "string",
+          "required": true
+        },
+        "datetime" : {
+            "type" : "date",
+            "required": true
+        },
+        "type": {
+          "type": "string",
+          "required": true
+        },
+        "sources": {
+          "type": [
+            "object"
+          ],
+          "required": true
+        },
+        "credits" : {
+            "type" : [
+                "object"
+            ],
+            "required": false
+        },
+        "description": {
+          "type": "string"
+        }
   },
   "validations": [],
   "relations": {},
